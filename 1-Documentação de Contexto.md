@@ -1,4 +1,4 @@
-# Objetivo
+## Objetivo
 
 Neste projeto, buscamos desenvolver um jogo interativo que ensine operações básicas de matemática, promovendo a inclusão de alunos surdos e deficientes auditivos na Escola Municipal Doutor Tarso de Coimbra. O projeto visa trazer novas atividades que estimulem a aprendizagem de forma divertida e engajante, utilizando recursos de Libras (Língua Brasileira de Sinais) para garantir acessibilidade e interação entre todos os estudantes. Através desse jogo, buscamos não apenas facilitar o aprendizado matemático, mas também fomentar um ambiente de cooperação e diversão, onde todos possam participar ativamente.
 
@@ -9,6 +9,6 @@ A inclusão de alunos surdos e deficientes auditivos no ensino de matérias bás
 
 
 ## Motivação
-Este projeto visa oferecer treinamento eficaz e acessível aos professores para o uso dos kits de robótica fornecidos pelo governo do Estado de Minas Gerais, com foco nas necessidades individuais e nos desafios específicos enfrentados por eles devido à falta de familiaridade com esses recursos. Os dois objetivos especifícos que podem ser alcançados seriam um estímulo na criatividade dos alunos, desenvolvendo uma colaboração em equipe e um ambiente escolar engajador para os estudantes e os professores iriam adquirir novos conhecimentos para inovar seu plano de aula e enriquecer o desenvolvimento pedagógico.
+Estamos em um momento em que a tecnologia pode transformar a educação e promover inclusão. Como estudantes de Ciência da Computação, temos a chance de usar nossas habilidades para impactar positivamente a sociedade. Ao desenvolver um jogo que ensina operações básicas de matemática para alunos surdos e deficientes auditivos estamos não apenas aplicando nosso conhecimento, mas também contribuindo para um ambiente educacional mais acessível e que possa utilizar atividades dinâmicas.
 
 
