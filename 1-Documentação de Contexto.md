@@ -1,14 +1,11 @@
 # Objetivo
 
-A era digital trouxe uma revolução em todos os aspectos da vida humana, incluindo na educação. Além de poder facilitar o processo de ensino e aprendizagem, tornando-os mais acessíveis e personalizados, o uso da tecnologia nas salas de aula estimula o pensamento crítico e resolução de problemas de forma prática, além de engajar a participação efetiva dos alunos nas aulas. Entretanto, é necessário que os professores, enquanto mediadores da relação aluno-tecnologia dentro da sala de aula, detenham o conhecimento de como aplicar os recursos tecnológicos de forma efetiva. 
-
-É pensando na relevância da tecnologia dentro da sala de aula, que resolvemos atuar em um problema apontado pelas escolas estaduais de Minas Gerais: Foi ofertado à essas escolas pela Secretaria de Estado de Educação um kit de robótica para utilização em sala de aula junto aos alunos do Ensino Médio. Entretanto, os kits permanecem inutilizados pelos educadores, uma vez que estes não receberam treinamento e não possuem os conhecimentos necessários para trabalhar com os recursos dentro da sala de aula. 
-
-A aplicação dos kits de robótica beneficiariam alunos e professores, uma vez que traria aos primeiros aulas mais dinâmicas, inovadoras, e tecnológicas, e aos últimos, a oportunidade de introduzir conceitos de mecânica e robótica na sala de aula e tornar a tecnologia um pouco mais acessível no cotidiano dos jovens e adolescentes.
+Neste projeto, buscamos desenvolver um jogo interativo que ensine operações básicas de matemática, promovendo a inclusão de alunos surdos e deficientes auditivos na Escola Municipal Doutor Tarso de Coimbra. O projeto visa trazer novas atividades que estimulem a aprendizagem de forma divertida e engajante, utilizando recursos de Libras (Língua Brasileira de Sinais) para garantir acessibilidade e interação entre todos os estudantes. Através desse jogo, buscamos não apenas facilitar o aprendizado matemático, mas também fomentar um ambiente de cooperação e diversão, onde todos possam participar ativamente.
 
 
 ## Problema
-O governo do estado de Minas Gerais disponibilizou kits de robótica para os professores de rede pública de ensino, porém há uma falha nesse processo, infelizmente os professores não receberam nenhuma capacitação para trabalhar com o material. 
+
+A inclusão de alunos surdos e deficientes auditivos no ensino de matérias básicas enfrenta um desafio significativo: a falta de materiais didáticos que utilizem a Libras (Língua Brasileira de Sinais). Essa ausência limita a compreensão e o engajamento desses alunos, resultando em desmotivação e dificuldades no aprendizado.
 
 
 ## Motivação
