@@ -5,7 +5,7 @@ Neste projeto, buscamos desenvolver um jogo interativo que ensine operações b�
 
 ## Problema
 
-O problema que buscamos resolver, é a escasez de recursos didáticos acessíveis e adaptados para alunos que usam Libra como sua forma principal de comunicação. Muitos materiais tradicionais não são adaptados para a lingua de sinais, o que dificulta o entendimento de conceitos matematicos para pessoas com essa deficiência.
+O problema que buscamos resolver é a escassez de recursos didáticos acessíveis e adequados para alunos que usam Libras como sua principal forma de comunicação. Muitos materiais tradicionais não são adaptados para a língua de sinais, o que dificulta o entendimento de conceitos matemáticos para pessoas com essa deficiência.
 
 
 ## Motivação
