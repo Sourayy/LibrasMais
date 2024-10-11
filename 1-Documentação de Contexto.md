@@ -5,7 +5,7 @@ Neste projeto, buscamos desenvolver um jogo interativo que ensine operações b�
 
 ## Problema
 
-A inclusão de alunos surdos e deficientes auditivos no ensino de matérias básicas enfrenta um desafio significativo: a falta de materiais didáticos que utilizem a Libras (Língua Brasileira de Sinais). Essa ausência limita a compreensão e o engajamento desses alunos, resultando em desmotivação e dificuldades no aprendizado.
+O problema que buscamos resolver, é a escasez de recursos didáticos acessíveis e adaptados para alunos que usam Libra como sua forma principal de comunicação. Muitos materiais tradicionais não são adaptados para a lingua de sinais, o que dificulta o entendimento de conceitos matematicos para pessoas com essa deficiência.
 
 
 ## Motivação
