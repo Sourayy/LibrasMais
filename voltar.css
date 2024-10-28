@@ -1,0 +1,33 @@
+.voltar {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+  transition: ease all 0.2s;
+  background-color: #a765e6;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+
+  &:hover {
+    .material-symbols-outlined {
+      transform: scale(1.1);
+    }
+
+    p {
+      transform: scale(1.1);
+    }
+  }
+}
+
+.material-symbols-outlined {
+  margin: auto 0;
+  font-size: 40px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+p {
+  font-size: 30px;
+  margin: 0;
+}
