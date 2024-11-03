@@ -27,10 +27,11 @@ h2 {
 
 .video-container {
   display: flex;
-  justify-content: center;
-  margin: 20px 0;
+  justify-content: center; 
+  margin: 20px 0; 
 }
 
-video {
-  border-radius: 10px;
+.video-container video {
+  width: 200px;  
+  height: 250px; 
 }
