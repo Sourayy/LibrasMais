@@ -1,22 +1,24 @@
-.operacoes{
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    width: 20%;
-    margin: 0 auto;
+.operacoes {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 20%;
+  margin: 0 auto;
 }
 
-button{
-    font-weight: 800;
-    background-color: #a765e6;
-    padding: 1rem 1.5rem;
-    border-radius: 15px;
-    border: none;
-    font-size: 1.3rem;
-    height: 90px;
-    cursor: pointer;
+button {
+  font-weight: 800;
+  background-color: #a765e6;
+  padding: 1rem 1.5rem;
+  border-radius: 15px;
+  border: none;
+  font-size: 1.3rem;
+  height: 90px;
+  cursor: pointer;
 
-    &:hover{
-        background-color:#4836ad;
-    }
+  &:hover {
+    background-color: #4836ad;
+    transform: scale(1.1);
+    transition: ease 0.3s all;
   }
+}
