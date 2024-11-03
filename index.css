@@ -2,8 +2,8 @@ html {
   height: 99vh;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -28,5 +28,3 @@ body::after {
   pointer-events: none;
   z-index: -1;
 }
-
-

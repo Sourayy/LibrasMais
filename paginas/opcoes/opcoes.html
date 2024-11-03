@@ -17,12 +17,12 @@
   <div class="voltar" onclick="voltar()">
     <span class="material-symbols-outlined">
       arrow_back
-    </span> <!-- seta do voltar  -->
+    </span>
     <p>Voltar</p>
   </div>
-  
-  <div class="operacoes">   
-    <button onclick="irParaOperacao('/paginas/adicao/adicao.html')" >ADIÇÃO</button>
+
+  <div class="operacoes">
+    <button onclick="irParaOperacao('/paginas/adicao/adicao.html')">ADIÇÃO</button>
     <button onclick="irParaOperacao('/paginas/subtracao/subtracao.html')">SUBTRAÇÃO</button>
     <button onclick="irParaOperacao('/paginas/multiplicacao/multiplicacao.html')">MULTIPLICAÇÃO</button>
     <button onclick="irParaOperacao('/paginas/divisao/divisao.html')">DIVISÃO</button>
@@ -30,5 +30,17 @@
 
 </body>
 
+<div vw class="enabled">
+  <div vw-access-button class="active"></div>
+  <div vw-plugin-wrapper>
+    <div class="vw-plugin-top-wrapper"></div>
+  </div>
+</div>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+  new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>
+
 <script src="./../../index.js"></script>
+
 </html>

@@ -1,11 +1,36 @@
-h1{
-    text-align: center;
-    background-color: #a765e6;
-    font-weight: 800;
-    font-size: 2rem;
-    padding: 10px 25px;
-    border-radius: 10px;
-    width: 150px;
-    margin: 0 auto;
+h1,
+h2,
+#operacaoAtual {
+  text-align: center;
+  font-weight: 800;
+  font-size: 2rem;
+  padding: 10px 25px;
+  border-radius: 10px;
+  min-width: 150px;
 }
 
+h1,
+#operacaoAtual {
+  background-color: rgb(252, 98, 188);
+}
+
+h2 {
+  background-color: #a765e6;
+}
+
+.operacao {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+video {
+  border-radius: 10px;
+}
