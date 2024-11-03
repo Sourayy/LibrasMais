@@ -3,8 +3,14 @@ function irParaOpcoes() {
 }
 
 function voltar() {
-  window.history.back();
+  const currentPath = window.location.pathname;
+  if (currentPath.endsWith("/opcoes/opcoes.html")) {
+    window.location.href = "/index.html"; 
+  } else {
+    window.history.back();
+  }
 }
+
 
 function irParaOperacao(operacao) {
   window.location.href = operacao;
