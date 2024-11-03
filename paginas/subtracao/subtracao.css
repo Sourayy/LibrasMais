@@ -30,6 +30,6 @@ h2 {
 }
 
 .video-container video {
-  width: 200px;  /* Largura fixa */
-  height: 250px; /* Altura fixa, mantendo uma proporção comum de 16:9 */
+  width: 200px;  
+  height: 250px; 
 }
