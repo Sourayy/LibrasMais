@@ -5,6 +5,9 @@ Gabrielle do Carmo Assunção
 
 Rayara Sousa Carvalho
 
+## Link para o site
+https://sourayy.github.io/LibrasMais/
+
 ## Objetivo
 
 Neste projeto, buscamos desenvolver um jogo interativo que ensine operações básicas de matemática, promovendo a inclusão de alunos surdos e deficientes auditivos na Escola Municipal Doutor Tarso de Coimbra. O projeto visa trazer novas atividades que estimulem a aprendizagem de forma divertida e engajante, utilizando recursos de Libras (Língua Brasileira de Sinais) para garantir acessibilidade e interação entre todos os estudantes. Através desse jogo, buscamos não apenas facilitar o aprendizado matemático, mas também fomentar um ambiente de cooperação e diversão, onde todos possam participar ativamente.
