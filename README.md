@@ -22,9 +22,9 @@ Estamos em um momento em que a tecnologia pode transformar a educação e promov
 
 A seguir um vídeo demonstrativo do quiz:
 
-<video controls width="600">
-  <source src="./assets/TutorialLibrasMais.mp4" type="video/mp4">
-  Seu navegador não suporta o elemento de vídeo.
-</video>
+
+https://github.com/user-attachments/assets/5913618b-73c4-44cf-b761-dd726e844e52
+
+
 
 
