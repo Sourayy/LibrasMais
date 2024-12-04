@@ -1,6 +1,8 @@
 ## Membros
 Emilly Mikaely Lima dos Santos Silva
+
 Gabrielle do Carmo Assunção
+
 Rayara Sousa Carvalho
 
 ## Objetivo
@@ -19,5 +21,10 @@ Estamos em um momento em que a tecnologia pode transformar a educação e promov
 ## Tutorial
 
 A seguir um vídeo demonstrativo do quiz:
-(./assets/TutorialLibrasMais.mp4)
+
+<video controls width="600">
+  <source src="./assets/TutorialLibrasMais.mp4" type="video/mp4">
+  Seu navegador não suporta o elemento de vídeo.
+</video>
+
 
