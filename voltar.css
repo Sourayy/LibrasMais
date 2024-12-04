@@ -1,21 +1,21 @@
 .voltar {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  cursor: pointer;
-  transition: ease all 0.2s;
   background-color: #a765e6;
   width: 100%;
   padding: 10px 20px;
   margin-bottom: 20px;
-
-  &:hover {
-    .material-symbols-outlined {
-      transform: scale(1.1);
-    }
-
+  
+  .conteudo-voltar {
+    width: fit-content;
+    transition: ease all 0.2s;
+    display: flex;
+    align-items: center;
+    gap:15px;
+  }
+  .conteudo-voltar:hover {
+    .material-symbols-outlined,
     p {
       transform: scale(1.1);
+      cursor: pointer;
     }
   }
 }

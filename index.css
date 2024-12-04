@@ -28,3 +28,22 @@ body::after {
   pointer-events: none;
   z-index: -1;
 }
+
+.github {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  background-color: rgba(247, 85, 223, 0.925);
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+
+  &:hover {
+    transform: scale(1.1);
+    transition: all ease 0.2s;
+    background-color: rgb(247, 85, 223);
+  }
+}
