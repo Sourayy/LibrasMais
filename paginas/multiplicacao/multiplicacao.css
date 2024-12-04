@@ -21,6 +21,13 @@ h2 {
   align-items: center;
   justify-content: space-between;
   padding: 0 40px;
+
+  div{
+    width: 58.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 
