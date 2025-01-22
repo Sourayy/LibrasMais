@@ -1,7 +1,12 @@
 ## Membros
 Emilly Mikaely Lima dos Santos Silva
+
 Gabrielle do Carmo Assunção
+
 Rayara Sousa Carvalho
+
+## Link para o site
+https://sourayy.github.io/LibrasMais/
 
 ## Objetivo
 
@@ -19,5 +24,10 @@ Estamos em um momento em que a tecnologia pode transformar a educação e promov
 ## Tutorial
 
 A seguir um vídeo demonstrativo do quiz:
-(./assets/TutorialLibrasMais.mp4)
+
+
+https://github.com/user-attachments/assets/5913618b-73c4-44cf-b761-dd726e844e52
+
+
+
 
