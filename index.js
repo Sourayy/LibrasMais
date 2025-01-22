@@ -1,5 +1,5 @@
 function irParaOpcoes() {
-  window.location.href = "/paginas/opcoes/opcoes.html";
+  window.location.href = "./paginas/opcoes/opcoes.html";
 }
 
 function voltar() {
