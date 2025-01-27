@@ -4,8 +4,8 @@ function irParaOpcoes() {
 
 function voltar() {
   const currentPath = window.location.pathname;
-  if (currentPath.endsWith("/opcoes/opcoes.html")) {
-    window.location.href = "/index.html"; 
+  if (currentPath.endsWith("./opcoes/opcoes.html")) {
+    window.location.href = "./index.html"; 
   } else {
     window.history.back();
   }
@@ -37,7 +37,7 @@ function embaralharArray(array) {
 function gerarOperacao(operacoes) {
   if (operacaoAtual >= operacoes.length) {
     localStorage.setItem("acertos", acertos);
-    window.location.href = "/paginas/resultado/resultado.html";
+    window.location.href = "./paginas/resultado/resultado.html";
     return;
   }
 
