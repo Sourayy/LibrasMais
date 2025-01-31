@@ -11,7 +11,6 @@ function voltar() {
   }
 }
 
-
 function irParaOperacao(operacao) {
   window.location.href = operacao;
 }
