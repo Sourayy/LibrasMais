@@ -11,10 +11,10 @@ function voltar() {
   }
 }
 
-const baseUrl = window.location.pathname.split('/')[1];
-
 function irParaOperacao(operacao) {
-  window.location.href = `/${baseUrl}${operacao}`;
+  const isGitHubPages = window.location.hostname.includes('github.io'); 
+  const baseUrl = isGitHubPages ? window.location.pathname.split('/')[1] : '';
+  window.location.href = isGitHubPages ? `/${baseUrl}${operacao}` : operacao;
 }
 
 const alternativas = document.querySelector(".alternativas");
@@ -38,8 +38,11 @@ function embaralharArray(array) {
 function gerarOperacao(operacoes) {
   if (operacaoAtual >= operacoes.length) {
     localStorage.setItem("acertos", acertos);
-    window.location.href = "./paginas/resultado/resultado.html";
-    return;
+    const isGitHubPages = window.location.hostname.includes('github.io');
+  const baseUrl = isGitHubPages ? window.location.pathname.split('/')[1] : '';
+  const resultadoUrl = isGitHubPages ? `/${baseUrl}/paginas/resultado/resultado.html` : './paginas/resultado/resultado.html';
+  window.location.href = resultadoUrl;
+  return;
   }
 
   const { num1, num2, resultado, simbolo, url } = operacoes[operacaoAtual];
