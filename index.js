@@ -11,8 +11,10 @@ function voltar() {
   }
 }
 
+const baseUrl = window.location.pathname.split('/')[1];
+
 function irParaOperacao(operacao) {
-  window.location.href = operacao;
+  window.location.href = `/${baseUrl}${operacao}`;
 }
 
 const alternativas = document.querySelector(".alternativas");
