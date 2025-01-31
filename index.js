@@ -39,10 +39,12 @@ function gerarOperacao(operacoes) {
   if (operacaoAtual >= operacoes.length) {
     localStorage.setItem("acertos", acertos);
     const isGitHubPages = window.location.hostname.includes('github.io');
-  const baseUrl = isGitHubPages ? window.location.pathname.split('/')[1] : '';
-  const resultadoUrl = isGitHubPages ? `/${baseUrl}/paginas/resultado/resultado.html` : './paginas/resultado/resultado.html';
-  window.location.href = resultadoUrl;
-  return;
+    const baseUrl = isGitHubPages ? window.location.pathname.split('/')[1] : '';
+    const resultadoUrl = isGitHubPages 
+      ? `/${baseUrl}/paginas/resultado/resultado.html` 
+      : '/paginas/resultado/resultado.html';
+    window.location.href = resultadoUrl;
+    return;
   }
 
   const { num1, num2, resultado, simbolo, url } = operacoes[operacaoAtual];
