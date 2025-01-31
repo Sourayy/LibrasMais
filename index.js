@@ -13,9 +13,15 @@ function irParaOpcoes() {
 }
 
 function voltar() {
+  const { isGitHubPages, baseUrl } = getEnvironment();
   const currentPath = window.location.pathname;
-  if (currentPath.endsWith("./opcoes/opcoes.html")) {
-    window.location.href = "./index.html";
+  const opcoesPath = isGitHubPages
+    ? `/${baseUrl}/paginas/opcoes/opcoes.html`
+    : '/paginas/opcoes/opcoes.html';
+
+  if (currentPath.endsWith(opcoesPath)) {
+    const homeUrl = isGitHubPages ? `/${baseUrl}/` : '/';
+    window.location.href = homeUrl;
   } else {
     window.history.back();
   }
