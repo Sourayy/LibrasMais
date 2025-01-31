@@ -33,7 +33,9 @@ h1 {
   border: none;
 }
 
-#botaoVoltar {
+#botaoVoltar:hover {
   cursor: pointer;
   background-color: #4836ad;
+  transform: scale(1.1);
+  transition: ease all 0.2s;
 }

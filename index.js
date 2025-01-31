@@ -1,19 +1,28 @@
+function getEnvironment() {
+  const isGitHubPages = window.location.hostname.includes("github.io");
+  const baseUrl = isGitHubPages ? window.location.pathname.split("/")[1] : "";
+  return { isGitHubPages, baseUrl };
+}
+
 function irParaOpcoes() {
-  window.location.href = "./paginas/opcoes/opcoes.html";
+  const { isGitHubPages, baseUrl } = getEnvironment();
+  const resultadoUrl = isGitHubPages
+    ? `/${baseUrl}/paginas/opcoes/opcoes.html`
+    : "/paginas/opcoes/opcoes.html";
+  window.location.href = resultadoUrl;
 }
 
 function voltar() {
   const currentPath = window.location.pathname;
   if (currentPath.endsWith("./opcoes/opcoes.html")) {
-    window.location.href = "./index.html"; 
+    window.location.href = "./index.html";
   } else {
     window.history.back();
   }
 }
 
 function irParaOperacao(operacao) {
-  const isGitHubPages = window.location.hostname.includes('github.io'); 
-  const baseUrl = isGitHubPages ? window.location.pathname.split('/')[1] : '';
+  const { isGitHubPages, baseUrl } = getEnvironment();
   window.location.href = isGitHubPages ? `/${baseUrl}${operacao}` : operacao;
 }
 
@@ -38,11 +47,10 @@ function embaralharArray(array) {
 function gerarOperacao(operacoes) {
   if (operacaoAtual >= operacoes.length) {
     localStorage.setItem("acertos", acertos);
-    const isGitHubPages = window.location.hostname.includes('github.io');
-    const baseUrl = isGitHubPages ? window.location.pathname.split('/')[1] : '';
-    const resultadoUrl = isGitHubPages 
-      ? `/${baseUrl}/paginas/resultado/resultado.html` 
-      : '/paginas/resultado/resultado.html';
+    const { isGitHubPages, baseUrl } = getEnvironment();
+    const resultadoUrl = isGitHubPages
+      ? `/${baseUrl}/paginas/resultado/resultado.html`
+      : "/paginas/resultado/resultado.html";
     window.location.href = resultadoUrl;
     return;
   }
